@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 10px 20px 0px;
+}
+
+.header{
+
+    background-color: gainsboro;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 12%;
+    width: 100%
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color: brown;
+    text-decoration: none;
+
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 1em 0 0;
+    line-height: 70px;
+    color: brown;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 8px;
+
+}
+
+.nav-menu-link:hover{
+    background-color: aquamarine;
+    font-size: 20px;
+    transition: all 300ms linear;
+
+}
+
+#Contenido{
+
+    background-color: moccasin;
+    position: fixed;
+    top: 12%;
+    bottom: 8%;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+    padding-left: 15px;
+
+}
+#Tituloindex{
+    font-size: 30px;
+    font-weight: bold;
+    color: cadetblue;
+}
+#TituloCartas{
+    font-size: 45px;
+    color: #c49838;
+
+}
+#button:hover{
+    background-color: #c49839;
+
+    font-size: 20px;
+    transition: all 300ms linear;
+    padding: 15px;
+}
+#TituloReservaciones{
+    font-size: 45px;
+    color: #c49838;
+}
+#ConetnidoReservas{
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+#TituloAutor{
+    font-size: 45px;
+    color: #c49838;
+}
+#buttonI:hover{
+    background-color:#F2653A;
+    font-size: 20px;
+    transition: all 300ms linear;
+    padding: 15px;
+}
+#buttonT:hover{
+    background-color: #1D9BF0;
+    font-size: 20px;
+    transition: all 300ms linear;
+    padding: 15px;
+}
+#buttonW:hover{
+    background-color: #1BD741;
+    font-size: 20px;
+    transition: all 300ms linear;
+    padding: 15px;
+}
+#buttonF:hover{
+    background-color: #005095;
+    font-size: 20px;
+    transition: all 300ms linear;
+    padding: 15px;
+}
+#buttonEmpleo:hover{
+    background-color: buttonshadow;
+    transition: all 300ms linear;
+    font-size: 20px;
+    padding: 15px;
+}
+#buttonReservar:hover{
+    background-color: buttonface;
+    transition: all 300ms linear;
+    font-size: 20px;
+    padding: 15px;
+}
+#TituloUbicacion{
+    font-size: 45px;
+    color: #c49838;
+}
+#tituloContacto{
+    font-size: 45px;
+    color: #c49838;
+}
+#tituloEmpleo{
+    font-size: 45px;
+    color: #c49838;
+}
+#tituloNuestrosChefs{
+    font-size: 45px;
+    color: #c49838;
+}
+h3{
+     font-size: 25px;
+     color: crimson;
+}
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    height: 8%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
